@@ -1,0 +1,64 @@
+body, html, .background {
+    height: 100%;
+}
+.city{
+    /* display: inline; */
+    position: relative;
+    background-image: url(skyline.jpg);.
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    }
+
+.kong {
+    /*animation-duration: 3s;
+    animation-name: bounceinup;
+    animation-direction: normal;
+    */
+    animation: 3s linear normal bounceinup;
+    position: absolute;
+    right: 15%;
+    z-index: 10;
+    width: 20%;
+    height: 30%;
+    bottom: 0%;
+
+    }
+@keyframes bounceinup {
+    0% {top: 55%;}
+    20% {top: 50%;}
+    40% {top: 45%;}
+    60% {top: 40%;}
+    80% {top: 35%;}
+    100% {top: 30%;}
+}
+/* from {
+    margin-bottom: 0%;
+    margin-right: 25%;
+    width: 25%;
+}
+to {
+    margin-top: 25%;
+    margin-right: 25%;
+    width: 25%;
+}
+}
+
+
+@keyframes bounceinup {
+    from {
+        bottom: 0%;
+        right: 25%;
+    }
+    to {
+        top: 25%;
+        right: 25%;
+    }
+    }
+  
+    .kong.in-animating {
+    -webkit-animation: MyAnimation 2s;
+            animation: MyAnimation 2s;
+    }
+    */
